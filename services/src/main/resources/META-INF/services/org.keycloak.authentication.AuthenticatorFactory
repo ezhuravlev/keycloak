@@ -22,6 +22,7 @@ org.keycloak.authentication.authenticators.browser.ScriptBasedAuthenticatorFacto
 org.keycloak.authentication.authenticators.browser.SpnegoAuthenticatorFactory
 org.keycloak.authentication.authenticators.browser.IdentityProviderAuthenticatorFactory
 org.keycloak.authentication.authenticators.directgrant.ValidateOTP
+org.keycloak.authentication.authenticators.directgrant.ValidateJWT
 org.keycloak.authentication.authenticators.directgrant.ValidatePassword
 org.keycloak.authentication.authenticators.directgrant.ValidateUsername
 org.keycloak.authentication.authenticators.resetcred.ResetCredentialChooseUser

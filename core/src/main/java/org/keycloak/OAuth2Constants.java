@@ -58,11 +58,17 @@ public interface OAuth2Constants {
     String CLIENT_CREDENTIALS = "client_credentials";
 
     // https://tools.ietf.org/html/draft-ietf-oauth-assertions-01#page-5
+    String ASSERTION = "assertion";
+    // https://tools.ietf.org/html/draft-ietf-oauth-assertions-01#page-5
     String CLIENT_ASSERTION_TYPE = "client_assertion_type";
     String CLIENT_ASSERTION = "client_assertion";
 
+    // https://tools.ietf.org/html/draft-jones-oauth-jwt-bearer-03#section-2.1
+    String GRANT_TYPE_JWT = "urn:ietf:params:oauth:grant-type:jwt-bearer";
+
     // https://tools.ietf.org/html/draft-jones-oauth-jwt-bearer-03#section-2.2
     String CLIENT_ASSERTION_TYPE_JWT = "urn:ietf:params:oauth:client-assertion-type:jwt-bearer";
+
 
     // http://openid.net/specs/openid-connect-core-1_0.html#OfflineAccess
     String OFFLINE_ACCESS = "offline_access";
